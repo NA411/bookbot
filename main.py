@@ -28,4 +28,5 @@ def main():
     print("--------- Character Count -------")
     pretty_print_dict(sort_chars(count_chars(book_text)))
 
-main()
+if __name__ == "__main__":
+    main()
